@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExceptionMapping>
+  <FunctionalException text="Functional">
+        <message alternateText ="Insufficient Memory">Insufficient memory to continue the execution of the program.</message>   
+        <message alternateText ="Invalid Format">One of the identified items was in an invalid format.</message> 
+		<message alternateText ="Insufficient Stack">Insufficient stack to continue executing the program safely. This can happen from having too many functions on the call stack or function on the stack using too much stack space.</message>
+		<message alternateText ="Invalid Field Exception">Attempted to access a field that is not accessible by the caller.</message>
+		<message alternateText ="Invalid Member">Cannot access member.</message>
+		<message alternateText ="Missing Field">Attempted to access a non-existing field.</message>
+		<message alternateText ="Null Reference">Object reference not set to an instance of an object.</message>
+		<message alternateText ="Overflow Operation">Arithmetic operation resulted in an overflow.</message>
+		<message alternateText ="Divide By 0">division by zero</message>
+		<message alternateText ="Maths error">math domain error</message>
+		
+  </FunctionalException>
+  <EnvironmentalException text="Environmental">
+		<message alternateText ="File Not Found">No such file or directory</message>   	
+		<message alternateText ="Invalid Time Zone">Exception of type 'System.InvalidTimeZoneException' was thrown.</message>	
+		<message alternateText ="Array Out of Range">array index out of range</message>		
+		<message>Stack Overflow</message>
+  </EnvironmentalException> 
+<OtherException text="Other"/>
+</ExceptionMapping>
