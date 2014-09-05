@@ -16,6 +16,7 @@ limitations under the License.
 
 # Author: AFourTech 
 # Copyright: 2014 AFour Technologies.
+# Version:  1.0.0.0
 
 """
 A Exception Function class specialize  for Exception Handling.
@@ -91,7 +92,8 @@ class Mapping(object):
     def __init__(self): 
         """
         This method initialize Error Code Dictionary and cache xml file. 
-        """      
+        """ 
+		__version__ = "1.0.0.0"		
         Mapping.initializeErrorCodeDict(self)
         Mapping.cacheXMLDocument(self)
         
